@@ -1,12 +1,17 @@
-# pARCore_RosSharp_ROS
+# Move the Quadruped
 
-On developoing pls w8 :)
 
-This a set of ARCore ROS samples that provides assets using ROS#  for the comunication between ROS and Mobile node.
-
-Getting started
+1. Run the quadruped simulation
 ```
-Install Unity 2019 and ARCore SDK for unity
-htps://developers.google.com/ar/develop/unity/quickstart-android
+roslaunch champ_config gazebo.launch
 ```
-Clone This repo. Copy .. to Unity Assets
+
+2 Run the Navigation Node
+```
+roslaunch champ_config navigate.launch rviz:=true
+```
+
+3. Run Commander
+```
+rosrun beginner movebasePython.py
+```
