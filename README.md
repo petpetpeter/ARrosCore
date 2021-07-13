@@ -1,17 +1,22 @@
 # Move the Quadruped
 
 
-1. Run the quadruped simulation
+1. Run the turtlebot simulation
 ```
-roslaunch champ_config gazebo.launch
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
 2 Run the Navigation Node
 ```
-roslaunch champ_config navigate.launch rviz:=true
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch
 ```
 
-3. Run Commander
+3.launch file server
+```
+roslaunch file_server ros_sharp_communication.launch
+```
+
+4. Run Commander
 ```
 rosrun beginner movebasePython.py
 ```
