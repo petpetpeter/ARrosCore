@@ -61,6 +61,6 @@ allprojects {
 ![image](https://user-images.githubusercontent.com/55285546/126052377-b42d6bd5-4e7a-4aa8-9eb8-6a2bc849f7f1.png)
 
 - Ros Setup
-4. Copy file_server package to your workspace
-5. Build the package
+1. Copy file_server package to your workspace
+2. Build the package
 
