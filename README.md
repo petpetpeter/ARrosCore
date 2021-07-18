@@ -79,10 +79,29 @@ roslaunch file_server ros_sharp_communication.launch
 ### Import Turtlebot3 Model to Unity
 1. Download turtlebot3 package in ROS (The simulation package is optional)
 > https://github.com/gmp-prem/BasicROS/tree/Turtlebot3
-2. Edit URDF export launch file to export Turtlebot3 model
--
--
--
+2. Add URDF export launch file to export Turtlebot3 model
+```
+cd ~/catkin_ws/src
+code .
+```
+```
+<launch>
+
+	<include file="$(find file_server)/launch/ros_sharp_communication.launch">
+		<arg name="port" value="9090" />
+	</include>
+
+	<arg name="urdf_file" default="$(find xacro)/xacro.py '$(find turtlebot_description)/robots/turtlebot3_burger.urdf.xacro'" />
+	
+	<param name="robot/name" value="Turtlebot3" />
+	<param name="robot_description" command="$(arg urdf_file)" />
+
+</launch>
+```
+![image](https://user-images.githubusercontent.com/55285546/126057972-a7e68ad3-9f19-499b-880f-a8cb68083b92.png)
+
+
+
 3. Launch Turtlebot3 exporter
 4. In unity: export robot model to your scene
 
