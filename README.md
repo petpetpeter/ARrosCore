@@ -62,6 +62,7 @@ allprojects {
 
 - Ros Setup
 > For WSL-ROS installation : https://jack-kawell.com/2020/06/12/ros-wsl2/
+0. Create your workspace   : https://github.com/gmp-prem/BasicROS
 1. Copy file_server package to your workspace
 2. Build the package
 
