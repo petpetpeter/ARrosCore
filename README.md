@@ -91,7 +91,7 @@ code .
 		<arg name="port" value="9090" />
 	</include>
 
-	<arg name="urdf_file" default="$(find xacro)/xacro.py '$(find turtlebot_description)/robots/turtlebot3_burger.urdf.xacro'" />
+	<arg name="urdf_file" default="$(find xacro)/xacro.py '$(find turtlebot3_description)/urdf/turtlebot3_burger.urdf.xacro'" />
 	
 	<param name="robot/name" value="Turtlebot3" />
 	<param name="robot_description" command="$(arg urdf_file)" />
@@ -103,6 +103,16 @@ code .
 
 
 3. Launch Turtlebot3 exporter
+```
+roslaunch file_server turtlebot3_description_publisher.launch
+```
+4. Check your Linux port
+```
+hostname -I
+```
+![image](https://user-images.githubusercontent.com/55285546/126058220-191ada18-0145-4a2b-8e6b-06b7888e0e1d.png)
+
+
 4. In unity: export robot model to your scene
 
 ### Move Turtlebot3 in AR
