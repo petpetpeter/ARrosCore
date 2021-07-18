@@ -65,6 +65,10 @@ allprojects {
 0. Create your workspace   : https://github.com/gmp-prem/BasicROS
 1. Copy file_server package to your workspace
 2. Build the package
+3. Install ros bridge suit dependencies
+```
+sudo apt-get install ros-melodic-rosbridge-server
+```
 
 ### Import Turtlebot3 Model to Unity
 1. Download turtlebot3 package in ROS (The simulation package is optional)
