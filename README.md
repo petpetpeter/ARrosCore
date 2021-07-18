@@ -69,6 +69,12 @@ allprojects {
 ```
 sudo apt-get install ros-melodic-rosbridge-server
 ```
+4. Check package by launching
+```
+roslaunch file_server ros_sharp_communication.launch
+```
+![image](https://user-images.githubusercontent.com/55285546/126057617-56ea82dd-ca2b-41a9-a07b-8107663e8edf.png)
+
 
 ### Import Turtlebot3 Model to Unity
 1. Download turtlebot3 package in ROS (The simulation package is optional)
