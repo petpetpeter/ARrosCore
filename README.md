@@ -16,6 +16,33 @@ The version of this example are
 
 2. config custom gradle
 > https://developers.google.com/ar/develop/unity/android-11-build
+![image](https://user-images.githubusercontent.com/55285546/126052974-392d5c8e-e502-4feb-9011-af7fd31f54e3.png)
+
+Insert the following lines at the top of the file:
+'''
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        // Must be Android Gradle Plugin 3.6.0 or later. For a list of
+        // compatible Gradle versions refer to:
+        // https://developer.android.com/studio/releases/gradle-plugin
+        classpath 'com.android.tools.build:gradle:3.6.0'
+    }
+}
+
+allprojects {
+   repositories {
+      google()
+      jcenter()
+      flatDir {
+        dirs 'libs'
+      }
+   }
+}
+'''
 
 3. test example
 
