@@ -121,16 +121,44 @@ hostname -I
 ![image](https://user-images.githubusercontent.com/55285546/126059012-55404993-8670-4582-a204-9ab08f3c3316.png)
 
 ### Move Turtlebot3 in AR
+In ROS:
+1. Bring up turtlebot3 rviz and fake node (gazebo is also ok)
+```
+roslaunch turtlebot3_fake turtlebot3_fake.launch
+```
+
+2. Launch teletop and make its spin
+```
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
+![image](https://user-images.githubusercontent.com/55285546/126059759-ae5a5599-9611-438a-8735-1709507c5859.png)
+
+
+
+3. Launch ros bridge to unity
+```
+roslaunch file_server ros_sharp_communication.launch
+```
+
+
+
+
 In unity:
 1. Create empty object, add ros connector scripts and change ip address
 ![image](https://user-images.githubusercontent.com/55285546/126059233-40f331d9-90ac-4219-ab9a-7c9b6447361c.png)
 
 2. Add joint states and odometry subscriber
+
 ![image](https://user-images.githubusercontent.com/55285546/126059345-53e0153b-57de-4a7e-823e-2b66df9a60d6.png)
 
 3. Add joint_state_writer to each wheel
+ 
 ![image](https://user-images.githubusercontent.com/55285546/126059381-07a8169e-e253-434a-a02c-77d8b1aea953.png)
 
 4. Drag each wheel to joint state write field in joint state subscriber and the final inspector is like this
+
 ![image](https://user-images.githubusercontent.com/55285546/126059437-d9264bf8-81ca-48be-b2f6-dee2007c4b93.png)
+
+5. Build The Scene. Make sure your phone is connected to same wifi with ROS PC
+
 
