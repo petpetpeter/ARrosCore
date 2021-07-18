@@ -6,8 +6,8 @@ On developoing pls w8 :)
 This a set of ARCore ROS samples that provides assets using ROS#  for the comunication between ROS and Mobile node.
 
 The version of this example are
-- Unity 2019
-- ROS Noetic on Unbuntu 20.04
+- Unity 2019.xx LTS
+- ROS Melodic on Unbuntu 18.xx LTS
 
 ## Setting Up
 ### Install arcore sdk for unity
