@@ -82,7 +82,7 @@ roslaunch file_server ros_sharp_communication.launch
 
 
 ## Import Turtlebot3 Model to Unity
-1. Download turtlebot3 package in ROS (The simulation package is optional)
+1. Download turtlebot3 package in ROS 
 > https://github.com/gmp-prem/BasicROS/tree/Turtlebot3
 2. Add URDF export launch file to export Turtlebot3 model
 ```
