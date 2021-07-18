@@ -16,7 +16,11 @@ The version of this example are
 
 2. config custom gradle
 > https://developers.google.com/ar/develop/unity/android-11-build
+
+
 ![image](https://user-images.githubusercontent.com/55285546/126052974-392d5c8e-e502-4feb-9011-af7fd31f54e3.png)
+
+> https://gradle.org/releases/
 
 Insert the following lines at the top of the file:
 ```
