@@ -8,6 +8,7 @@ This a set of ARCore ROS samples that provides assets using ROS#  for the comuni
 The version of this example are
 - Unity 2019.xx LTS
 - ROS Melodic on Unbuntu 18.xx LTS
+> For WSL-ROS installation : https://jack-kawell.com/2020/06/12/ros-wsl2/
 
 ## Setting Up
 ### Install arcore sdk for unity
@@ -61,7 +62,6 @@ allprojects {
 ![image](https://user-images.githubusercontent.com/55285546/126052377-b42d6bd5-4e7a-4aa8-9eb8-6a2bc849f7f1.png)
 
 - Ros Setup
-> For WSL-ROS installation : https://jack-kawell.com/2020/06/12/ros-wsl2/
 0. Create your workspace   : https://github.com/gmp-prem/BasicROS
 1. Copy file_server package to your workspace
 2. Build the package
