@@ -14,7 +14,7 @@ The version of this example are
 1. follow quick start guide
 > https://developers.google.com/ar/develop/unity/quickstart-android
 
-2. config custom gradle
+2. config custom gradle (Test only version 6.5)
 > https://developers.google.com/ar/develop/unity/android-11-build
 
 
@@ -114,5 +114,7 @@ hostname -I
 
 
 4. In unity: export robot model to your scene
+![image](https://user-images.githubusercontent.com/55285546/126058305-391f6405-19d1-44e6-9efd-7db90b1b91c3.png)
+
 
 ### Move Turtlebot3 in AR
