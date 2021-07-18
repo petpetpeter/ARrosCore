@@ -5,6 +5,10 @@ On developoing pls w8 :)
 
 This a set of ARCore ROS samples that provides assets using ROS#  for the comunication between ROS and Mobile node.
 
+The version of this example are
+- Unity 2019
+- ROS Noetic on Unbuntu 20.04
+
 ## Setting Up
 ### Install arcore sdk for unity
 1. follow quick start guide
@@ -21,7 +25,11 @@ This a set of ARCore ROS samples that provides assets using ROS#  for the comuni
 > https://github.com/siemens/ros-sharp
 - Unity Setup
 1. Copy the RosSharp folder from the latest commit of our repository into the Assets folder of your Unity project.
+2. Check Installation
+
+![image](https://user-images.githubusercontent.com/55285546/126052377-b42d6bd5-4e7a-4aa8-9eb8-6a2bc849f7f1.png)
+
 - Ros Setup
-1. Copy file_server package to your workspace
-2. build the package
+4. Copy file_server package to your workspace
+5. Build the package
 
