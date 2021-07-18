@@ -120,7 +120,7 @@ hostname -I
 
 ![image](https://user-images.githubusercontent.com/55285546/126059012-55404993-8670-4582-a204-9ab08f3c3316.png)
 
-> Enable Kinmatic and Disable Gravity
+> For this example, Enable Kinmatic and Disable Gravity
 ![image](https://user-images.githubusercontent.com/55285546/126060039-1d275390-a2cc-4dd9-9f8c-2e171314fdfa.png)
 
 
