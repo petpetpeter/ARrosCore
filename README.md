@@ -19,7 +19,7 @@ The version of this example are
 ![image](https://user-images.githubusercontent.com/55285546/126052974-392d5c8e-e502-4feb-9011-af7fd31f54e3.png)
 
 Insert the following lines at the top of the file:
-'''
+```
 buildscript {
     repositories {
         google()
@@ -42,7 +42,7 @@ allprojects {
       }
    }
 }
-'''
+```
 
 3. test example
 
