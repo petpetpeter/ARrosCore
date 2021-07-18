@@ -64,3 +64,14 @@ allprojects {
 1. Copy file_server package to your workspace
 2. Build the package
 
+### Import Turtlebot3 Model to Unity
+1. Download turtlebot3 package in ROS (The simulation package is optional)
+> https://github.com/gmp-prem/BasicROS/tree/Turtlebot3
+2. Edit URDF export launch file to export Turtlebot3 model
+-
+-
+-
+3. Launch Turtlebot3 exporter
+4. In unity: export robot model to your scene
+
+### Move Turtlebot3 in AR
