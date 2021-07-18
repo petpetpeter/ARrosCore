@@ -15,7 +15,7 @@ The version of this example are
 1. follow quick start guide
 > https://developers.google.com/ar/develop/unity/quickstart-android
 
-*** The only difference build setting is Scripting Backend to Mono and Api to .NET 4.x ***
+*** The only difference build setting for ROS# is Scripting Backend to Mono and Api to .NET 4.x ***
 ![image](https://user-images.githubusercontent.com/55285546/126060317-124c3b10-526e-42a4-9ca0-816120a6cc36.png)
 
 
