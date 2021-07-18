@@ -58,7 +58,7 @@ allprojects {
 
 ![image](https://user-images.githubusercontent.com/55285546/126052090-4671cc0a-0f7a-4c69-9861-010d1f6f8bbb.png)
 
-### Add ros# package
+### Add ROS# package
 > https://github.com/siemens/ros-sharp
 - Unity Setup
 1. Copy the RosSharp folder from the latest commit of our repository into the Assets folder of your Unity project.
