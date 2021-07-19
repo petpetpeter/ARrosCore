@@ -178,4 +178,5 @@ In unity:
 ![image](https://user-images.githubusercontent.com/55285546/126117804-4bf6f6ca-a94b-499e-bcf5-ca316e42a35a.png)
 
 3. Add HelloARROS Scene
-4. Try build the scene while connecting to the Turtlebot3 Fake Node
+> In ARrosCore-main --> ARrosCore-main --> HelloARcoreRos --> scene
+5. Try build the scene while connecting to the Turtlebot3 Fake Node
