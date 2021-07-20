@@ -15,13 +15,12 @@ roscd realsense2_camera/scripts/
 python P_segmentWithRGB.py
 ```
 
-3. PointCloud Handle (#DownSampling/#TF)
+3. PointCloud Handle (#FileServer/#DownSampling/#TF)
+> on Omen : bring up robot
 ```
-roslaunch pcl_ros camera_voxel_grid.launch
-roslaunch pointcloud_transformer pointcloud_transformer.launch
+roslaunch pcl_ros P_camera_voxel_grid.launch
 ```
 
-4. Run FileServer
-roslaunch file_server ros_sharp_communication.launch
+
 
 ## Unity Side
