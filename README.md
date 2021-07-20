@@ -18,7 +18,7 @@ python P_segmentWithRGB.py
 3. PointCloud Handle (#DownSampling/#TF)
 ```
 roslaunch pcl_ros camera_voxel_grid.launch
-
+roslaunch pointcloud_transformer pointcloud_transformer.launch
 ```
 
 4. Run FileServer
