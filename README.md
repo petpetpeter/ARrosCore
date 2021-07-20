@@ -18,10 +18,10 @@ python P_segmentWithRGB.py
 3. PointCloud Handle (#DownSampling/#TF)
 ```
 roslaunch pcl_ros camera_voxel_grid.launch
-roslaunch file_server ros_sharp_communication.launch
+
 ```
 
 4. Run FileServer
-
+roslaunch file_server ros_sharp_communication.launch
 
 ## Unity Side
