@@ -17,6 +17,7 @@ python P_segmentWithRGB.py
 
 3. PointCloud Handle (#FileServer/#DownSampling/#TF)
 > on Omen : bring up robot
+> hostname : hostname -I
 ```
 roslaunch pcl_ros P_camera_voxel_grid.launch
 ```
