@@ -12,12 +12,13 @@ roslaunch realsense2_camera rs_rgbd_w640.launch
 ```
 source ~/Documents/mmdvenv/bin/activate
 roscd realsense2_camera/scripts/
-python prem_detection_drl-rgbd_01.py
+python P_segmentWithRGB.py
 ```
 
 3. PointCloud Handle (#DownSampling/#TF)
 ```
-
+roslaunch pcl_ros camera_voxel_grid.launch
+roslaunch file_server ros_sharp_communication.launch
 ```
 
 4. Run FileServer
