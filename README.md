@@ -65,7 +65,7 @@ allprojects {
 
 - Ros Setup
 0. Create your workspace   : https://github.com/gmp-prem/BasicROS
-1. Copy file_server package to your workspace
+1. Copy file_server folder to the src folder of your workspace
 2. Build the package
 3. Install ros bridge suit dependencies
 ```
