@@ -71,7 +71,7 @@ allprojects {
 ```
 sudo apt-get install ros-melodic-rosbridge-server
 ```
-4. Check package by launching
+4. Check package by launching (Close it before doing next step)
 ```
 roslaunch file_server ros_sharp_communication.launch
 ```
