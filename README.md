@@ -2,7 +2,7 @@
 
 This a set of ARCore ROS samples that provides assets using ROS#  for the comunication between ROS and Mobile node.
 
-The version of this example are
+The software version using in this example are
 - Unity 2019.xx LTS
 - ROS Melodic on Unbuntu 18.xx LTS
 > For WSL-ROS installation : https://jack-kawell.com/2020/06/12/ros-wsl2/
