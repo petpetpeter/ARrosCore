@@ -4,8 +4,7 @@
 ## ROS Side
 1. Open camera (#roscore/#camera)
 ```
-roscore
-roslaunch realsense2_camera rs_rgbd_w640.launch
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
 
 2. Open Dectection
