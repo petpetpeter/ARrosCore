@@ -176,8 +176,8 @@ In unity:
 
 5. Build The Scene. Make sure your phone is connected to same wifi with ROS PC
 
-## Homework 
-1. Download this respository
+## Try depth Lab demo 
+1. Download this branch 
 2. Add ARrosCore Folder to Assets in Unity
 ![image](https://user-images.githubusercontent.com/55285546/126117804-4bf6f6ca-a94b-499e-bcf5-ca316e42a35a.png)
 
