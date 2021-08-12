@@ -2,11 +2,11 @@
 
 <img src="https://user-images.githubusercontent.com/55285546/115331964-df359680-a1d1-11eb-9092-29ec5752795f.png" height="300">
 
-Demo Video
+## Introduction
 
-Intro : https://www.youtube.com/watch?v=28zOEsvyGYM
+>Intro : https://www.youtube.com/watch?v=28zOEsvyGYM
 
-Navigation Interface: https://www.youtube.com/watch?v=b3p2vx0AHW8
+>Navigation Interface: https://www.youtube.com/watch?v=b3p2vx0AHW8
 
 This a set of ARCore ROS samples that provides assets using ROS#  for the comunication between ROS and Mobile node.
 
