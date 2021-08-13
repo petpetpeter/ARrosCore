@@ -1,4 +1,4 @@
-# PointCloudToAR
+# PickAndPlace
 
 
 ## ROS Side
@@ -12,10 +12,10 @@ roslaunch realsense2_camera rs_rgbd_w640.launch
 ```
 source ~/Documents/mmdvenv/bin/activate
 roscd realsense2_camera/scripts/
-python P_segmentWithRGB.py
+python P_masking_to_posearray.py
 ```
 
-3. PointCloud Handle (#FileServer/#DownSampling/#TF)
+3. TF ()
 > on Omen : bring up robot
 > hostname : hostname -I
 ```
