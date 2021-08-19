@@ -15,8 +15,13 @@ roscd realsense2_camera/scripts/
 python P_masking_to_posearrayV2.py
 ```
 
+3.
+```
+rosbridge
+```
 
-3. TF () / Rosbridge
+
+4. TF () / Rosbridge
 > on Omen : bring up robot
 > hostname : hostname -I
 ```
