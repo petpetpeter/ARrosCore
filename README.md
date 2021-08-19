@@ -14,12 +14,9 @@ source ~/Documents/mmdvenv/bin/activate
 roscd realsense2_camera/scripts/
 python P_masking_to_posearrayV2.py
 ```
-3. Run rosbridge
-```
-roslaunch file_server ros_sharp_communication.launch 
-```
 
-3. TF ()
+
+3. TF () / Rosbridge
 > on Omen : bring up robot
 > hostname : hostname -I
 ```
