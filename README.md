@@ -13,6 +13,7 @@ roslaunch realsense2_camera rs_rgbd_w640.launch
 source ~/Documents/mmdvenv/bin/activate
 roscd realsense2_camera/scripts/
 python P_segmentWithRGB.py
+python P_cropdepth.py
 ```
 
 3. PointCloud Handle (#FileServer/#DownSampling/#TF)
