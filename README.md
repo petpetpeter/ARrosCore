@@ -26,6 +26,7 @@ python P_cropdepth.py
 conda activate azure_ros
 roscd azure_marker/scripts
 python marker.py
+python cropDepthImage.py
 ```
 ```
 roslaunch azure_marker markerTF.launch
