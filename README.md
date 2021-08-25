@@ -41,7 +41,11 @@ python cropDepthImage.py
 ```
 roslaunch pcl_ros P_camera_voxel_grid.launch
 ```
+> Azure
 
+```
+roslaunch pointcloud_transformer azurePC.launch 
+```
 
 
 ## Unity Side
