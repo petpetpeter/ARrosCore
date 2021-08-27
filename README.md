@@ -26,8 +26,14 @@ python P_cropdepth.py
 conda activate azure_ros
 roscd azure_marker/scripts
 python marker.py
+```
+
+```
+conda activate azure_ros
+roscd azure_marker/scripts
 python cropDepthImage.py
 ```
+
 
 
 3. PointCloud Handle (#FileServer/#DownSampling/#TF)
