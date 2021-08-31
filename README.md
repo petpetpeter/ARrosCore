@@ -48,6 +48,13 @@ roslaunch pcl_ros P_camera_voxel_grid.launch
 roslaunch pointcloud_transformer azurePC.launch 
 ```
 
-
+4.motomanIK
+```
+roslaunch motoman_gazebo sia5_basic_moveit_gazebo.launch
+```
+```
+roscd azure_marker/scripts
+python sia5IK.py
+```
 ## Unity Side
 >build xxxWithPc.scene
