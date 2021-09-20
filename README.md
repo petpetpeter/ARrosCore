@@ -5,7 +5,7 @@
 1. Open camera (#roscore/#camera)
 ```
 roscore
-roslaunch realsense2_camera rs_rgbd_w640.launch
+roslaunch rs_marker rsOdom.launch
 ```
 > Azure
 ```
@@ -15,38 +15,22 @@ roslaunch azure_kinect_ros_driver driver.launch
 
 2. Open Dectection
 ```
-source ~/Documents/mmdvenv/bin/activate
-roscd realsense2_camera/scripts/
-python P_segmentWithRGB.py
-python P_cropdepth.py
+conda activate armesh
+roscd azure_marker/scripts/ 
+python azureMarker.py
 ```
-
-> Azure
 ```
-conda activate azure_ros
-roscd azure_marker/scripts
-python marker.py
-```
-
-```
-conda activate azure_ros
-roscd azure_marker/scripts
+conda activate armesh
+roscd azure_marker/scripts/ 
 python cropDepthImage.py
 ```
-
-
+```
+roslaunch pointcloud_transformer azurePC.launch
+```
 
 3. PointCloud Handle (#FileServer/#DownSampling/#TF)
 > on Omen : bring up robot
-> hostname : hostname -I
-```
-roslaunch pcl_ros P_camera_voxel_grid.launch
-```
-> Azure
 
-```
-roslaunch pointcloud_transformer azurePC.launch 
-```
 
 4.motomanIK
 ```
