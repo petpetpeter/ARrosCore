@@ -188,3 +188,6 @@ In unity:
 4. Edit ROSConnector URL
 
 5. Try build the scene while connecting to the Turtlebot3 Fake Node
+
+## Reference
+C. Piyavichayanon and M. Koga, "Validation of Robot Model with Mobile Augmented Reality," 2021 6th Asia-Pacific Conference on Intelligent Robot Systems (ACIRS), 2021, pp. 1-5, doi: 10.1109/ACIRS52449.2021.9519362.
