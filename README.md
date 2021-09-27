@@ -196,4 +196,16 @@ In unity:
 5. Try build the scene while connecting to the Turtlebot3 Fake Node
 
 ## Reference
-C. Piyavichayanon and M. Koga, "Validation of Robot Model with Mobile Augmented Reality," 2021 6th Asia-Pacific Conference on Intelligent Robot Systems (ACIRS), 2021, pp. 1-5, doi: 10.1109/ACIRS52449.2021.9519362.
+-------------------------------------------------------------------------------
+ARCore Depth API: https://github.com/googlesamples/arco...
+AR element in Unity Scene
+-------------------------------------------------------------------------------
+ROS#: https://github.com/siemens/ros-sharp
+Communication between ROS and Unity App
+-------------------------------------------------------------------------------
+CHAMP: https://github.com/chvmp/champ
+ROS Packages for CHAMP Quadruped Controller.
+-------------------------------------------------------------------------------
+Turtlebot3: https://github.com/ROBOTIS-GIT/turtle...
+ROS  Packages for TurtleBot3
+-------------------------------------------------------------------------------
