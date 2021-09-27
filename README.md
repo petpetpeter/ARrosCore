@@ -10,8 +10,9 @@
 
 >Collision Checking: (DepthLab Required)
 
-This a set of ARCore ROS samples that provides assets using ROS#  for the comunication between ROS and Mobile node.
-for DepthLab Required examples please check depthLab Branch
+This a set of ARCore ROS samples that provides assets using ROS# for the comunication between ROS and Mobile node.
+
+> for DepthLab Required examples please check depthLab Branch https://github.com/petpetpeter/ARrosCore/tree/depthLab
 
 The software version using in this example are
 - Unity 2019.xx LTS
