@@ -196,16 +196,11 @@ In unity:
 5. Try build the scene while connecting to the Turtlebot3 Fake Node
 
 ## Reference
--------------------------------------------------------------------------------
-ARCore Depth API: https://github.com/googlesamples/arco...
-AR element in Unity Scene
--------------------------------------------------------------------------------
+ARCore Depth API: https://github.com/googlesamples/arco
+
 ROS#: https://github.com/siemens/ros-sharp
-Communication between ROS and Unity App
--------------------------------------------------------------------------------
+
 CHAMP: https://github.com/chvmp/champ
-ROS Packages for CHAMP Quadruped Controller.
--------------------------------------------------------------------------------
-Turtlebot3: https://github.com/ROBOTIS-GIT/turtle...
-ROS  Packages for TurtleBot3
--------------------------------------------------------------------------------
+
+Turtlebot3: https://github.com/ROBOTIS-GIT/turtle
+
