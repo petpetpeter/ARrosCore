@@ -6,11 +6,12 @@
 
 >Intro : https://www.youtube.com/watch?v=28zOEsvyGYM
 
->Navigation Interface: https://www.youtube.com/watch?v=b3p2vx0AHW8
+>Navigation Interface: https://www.youtube.com/watch?v=b3p2vx0AHW8 (DepthLab Required)
 
->Collision Checking: 
+>Collision Checking: (DepthLab Required)
 
 This a set of ARCore ROS samples that provides assets using ROS#  for the comunication between ROS and Mobile node.
+for DepthLab Required examples please check depthLab Branch
 
 The software version using in this example are
 - Unity 2019.xx LTS
