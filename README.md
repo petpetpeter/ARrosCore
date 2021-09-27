@@ -1,5 +1,5 @@
 # The unity sample of ARCore and ROS implementation with ROS#
-This is a set of ARCore ROS samples that provides assets using ROS# for the comunication between ROS and Mobile node.
+Bringing your robot in ROS to Mobile Phone AR with ROS# and ARCore
 
 <img src="https://user-images.githubusercontent.com/55285546/115331964-df359680-a1d1-11eb-9092-29ec5752795f.png" height="300"> <img src="https://user-images.githubusercontent.com/55285546/134907679-a7091375-dda3-484a-b1b9-e76fdfc1eda1.gif" height="300">
 
