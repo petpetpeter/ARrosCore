@@ -9,14 +9,11 @@ The unity sample of ARCore and ROS implementation with ROS#
 
 >Intro : https://www.youtube.com/watch?v=28zOEsvyGYM
 
->Navigation Interface: https://www.youtube.com/watch?v=b3p2vx0AHW8 (DepthLab Required)
+>Navigation Interface: https://www.youtube.com/watch?v=b3p2vx0AHW8
 
->Collision Checking: https://www.youtube.com/watch?v=Ybw6PvRQdmY (DepthLab Required)
+>Collision Checking: https://www.youtube.com/watch?v=Ybw6PvRQdmY
 
 <img src="https://user-images.githubusercontent.com/55285546/134912490-2cdb6c1d-7604-4e1e-8cfa-8cfb79689301.gif" height="300"> <img src="https://user-images.githubusercontent.com/55285546/134911207-cb88be70-ad97-4a77-a8a4-84bdb02f394d.gif" height="300">
-
-> for DepthLab Required examples please check depthLab Branch https://github.com/petpetpeter/ARrosCore/tree/depthLab
-
 The software version using in this example are
 - Unity 2019.xx LTS
 - ROS Melodic on Unbuntu 18.xx LTS
