@@ -11,6 +11,6 @@ ARCore Depth Lab : https://github.com/googlesamples/arcore-depth-lab
 This example is build on Unity 2019.xx with ARCore sdk for unity and ROS#
 
 1. Install ARCore and ROS# in main branch
-2. Download depthLab branch or this link
+2. Download depthLab branch or this link : https://drive.google.com/file/d/1fOTUbbLdN--Gce22fL3Vp73qKUOGPQeO/view?usp=sharing
 3. Add folder to unity assets
 4. Try the example
