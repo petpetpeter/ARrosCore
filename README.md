@@ -12,4 +12,5 @@ This example is build on Unity 2019.xx with ARCore sdk for unity and ROS#
 
 1. Install ARCore and ROS# in main branch
 2. Download depthLab branch or this link
-3. Add 
+3. Add folder to unity assets
+4. Try the example
