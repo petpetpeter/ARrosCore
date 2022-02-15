@@ -4,6 +4,8 @@ The unity sample of ARCore and ROS implementation with ROS#
 
 <img src="https://user-images.githubusercontent.com/55285546/115331964-df359680-a1d1-11eb-9092-29ec5752795f.png" height="300"> <img src="https://user-images.githubusercontent.com/55285546/134907679-a7091375-dda3-484a-b1b9-e76fdfc1eda1.gif" height="300"> 
 
+## Paper : https://ieeexplore.ieee.org/document/9519362
+
 ## Example
 
 >Intro : https://www.youtube.com/watch?v=28zOEsvyGYM
