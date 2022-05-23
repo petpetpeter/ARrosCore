@@ -197,11 +197,11 @@ In unity:
 5. Try build the scene while connecting to the Turtlebot3 Fake Node
 
 ## Acknowledgement
-ARCore Depth API: https://github.com/googlesamples/arco
+ARCore Depth API: https://github.com/googlesamples/arcore-depth-lab
 
 ROS#: https://github.com/siemens/ros-sharp
 
 CHAMP: https://github.com/chvmp/champ
 
-Turtlebot3: https://github.com/ROBOTIS-GIT/turtle
+Turtlebot3: https://github.com/ROBOTIS-GIT/turtlebot3
 
